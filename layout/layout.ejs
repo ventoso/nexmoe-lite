@@ -28,7 +28,7 @@
   <%- partial('_partial/site-verification') %>
   <link rel="shortcut icon" href="<%= theme.favicon.href %>" type="<%= theme.favicon.type %>" />
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/ventoso/ventoso.github.io@1.0/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/ventoso/ventoso.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/ventoso/ventoso.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/ventoso/ventoso.github.io@1.0.1/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/ventoso/ventoso.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/ventoso/ventoso.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
   <% if (theme.iconlib) { %>
     <link rel="stylesheet" href="<%= theme.iconlib %>">
   <% } %>
@@ -68,6 +68,7 @@
   </div>
   <%- partial('_partial/after-footer') %>
   <%- partial('_partial/analytics') %>
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 </body>
 
 </html>
