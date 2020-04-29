@@ -28,12 +28,13 @@
   <%- partial('_partial/site-verification') %>
   <link rel="shortcut icon" href="<%= theme.favicon.href %>" type="<%= theme.favicon.type %>" />
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/ventoso/ventoso.github.io@1.0.1/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/ventoso/ventoso.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/ventoso/ventoso.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/ventoso/ventoso.github.io@1.0.3/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/ventoso/ventoso.github.io@1.0.3/lib/mdui_043tiny/css/mdui.css,gh/ventoso/ventoso.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
   <% if (theme.iconlib) { %>
     <link rel="stylesheet" href="<%= theme.iconlib %>">
   <% } %>
+  <!--<link rel="stylesheet" href="/css/style.css">-->
   <!--<%- css_auto_version('css/style') %>-->
-
+<!--gh/ventoso/ventoso.github.io@1.0.1/css/style.css,-->
   <% if(theme.function.avatarRotateZ) { %> 
     <style>
       .nexmoe-avatar img:hover {
